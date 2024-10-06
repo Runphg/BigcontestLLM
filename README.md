@@ -1,19 +1,20 @@
-# 💬 Chatbot template
+# KAIT 주최 및 신한카드 주관 - 2024 빅콘테스트 생성형AI분야 
+## "LLM활용 제주도 맛집 추천 대화형 AI서비스 개발" 예시 코드
 
-A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
+### 설명
+- 본 코드는 대회 참가자 분들의 과제에 대한 이해와 보다 수월한 접근을 돕기 위해 작성되었습니다.
+- 모범답안이 아니며 PoC(Proof of Concept) 수준의 샘플 코드입니다.
+- 크게 다음 두 부분으로 구성되어 있습니다.
+  
+  1) LLM을 활용하여 데이터에 기반한 응답을 만드는 부분
+  2) Streamlit을 활용하여 웹페이지 UI를 만드는 부분
+- 대회 진행을 위해 본 코드를 자유롭게 사용하실 수 있으며, 본 코드의 사용 여부는 평가와 무관합니다.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
+<br>
 
-### How to run it on your own machine
+### 실행 결과 (서비스 웹 페이지)
+https://shcard-bigcontest-2024-llm.streamlit.app/
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+- 위 웹 페이지는 Streamlit Cloud를 이용해 배포되었습니다.
+- Streamlit Cloud를 활용하면 별도 서버없이 무료로 웹페이지 배포가 가능하며, 대회 진행을 위해 사용하셔도 좋습니다.
+- 참고 : https://streamlit.io/cloud
